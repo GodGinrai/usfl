@@ -1,0 +1,55 @@
+.usfl-combobox {
+	width: 200px;
+	cursor: text;
+}
+
+.usfl-combobox input {
+	width: 10px;
+	cursor: text;
+}
+
+.usfl-combo-results {
+	display: block;
+	margin-top: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.usfl-combo-results * {
+	padding: 2px;
+	cursor: pointer;
+}
+
+.usfl-combo-results .active {
+	background-color: #BBBBBB;
+	color: #FFFFFF;
+}
+
+.usfl-combo-choice {
+	box-sizing: border-box;
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+	font-size: 15px;
+	margin: 1px 4px 1px 0px;
+}
+
+.usfl-combo-choice div {
+	padding: 2px 0px 2px 4px;
+}
+
+.usfl-combo-choice img {
+	cursor: pointer;
+	opacity: 0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.usfl-combo-choice img:hover {
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.usfl-combo-delete {
+	background-color: #CCCCCC;
+	color: #000000;
+	opacity: 0.3;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
