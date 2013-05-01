@@ -31,7 +31,7 @@ enyo.kind({
 		t.applyStyle("top", "-9999px");
 		t.applyStyle("left", "-9999px");
 		t.applyStyle("width", "auto");
-		t.applyStyle("whitespace", "nowrap");
+		t.applyStyle("white-space", "pre");
 		t.applyStyle("font-size",this.getComputedStyleValue("font-size","10px"));
 		t.applyStyle("font-family",this.getComputedStyleValue("font-family","Arial"));
 		t.applyStyle("font-weight",this.getComputedStyleValue("font-weight","bold"));

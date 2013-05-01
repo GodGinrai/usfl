@@ -1,5 +1,5 @@
 enyo.depends(
-	"css/Combobox.js",
+	"css/Combobox.css",
 	"js/GrowInput.js",
 	"js/ComboChoice.js",
 	"js/ComboResults.js",
